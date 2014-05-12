@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7148687916D5756F00ECB4D9 /* MobileDevice in Frameworks */ = {isa = PBXBuildFile; fileRef = 7148687816D5756F00ECB4D9 /* MobileDevice */; };
+		716DA9BE1920D958002E01BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716DA9BD1920D958002E01BC /* InfoPlist.strings */; };
+		716DA9C01920D970002E01BC /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 716DA9BF1920D970002E01BC /* MainMenu.nib */; };
+		716DA9C21920D978002E01BC /* MEMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716DA9C11920D978002E01BC /* MEMainWindowController.xib */; };
+		716DA9C41920DC28002E01BC /* libMobileDeviceAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DA9C31920DC28002E01BC /* libMobileDeviceAccess.a */; };
+		719ADC8813192E0700696ECF /* MEMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719ADC8713192E0700696ECF /* MEMainWindowController.m */; };
+		719ADE07131948FB00696ECF /* METreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 719ADE06131948FB00696ECF /* METreeItem.m */; };
+		719ADE1313194BBF00696ECF /* METreeItemDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 719ADE1213194BBF00696ECF /* METreeItemDevice.m */; };
+		719ADE1613194CBE00696ECF /* METreeItemSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 719ADE1513194CBE00696ECF /* METreeItemSection.m */; };
+		719ADF3813196ABF00696ECF /* MEOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719ADF3713196ABF00696ECF /* MEOutlineView.m */; };
+		71BE89B6131C53FC00BE91C7 /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE89B5131C53FC00BE91C7 /* MEAppDelegate.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7148687816D5756F00ECB4D9 /* MobileDevice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MobileDevice; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice; sourceTree = DEVELOPER_DIR; };
+		716DA9BC1920D74C002E01BC /* MobileExplorer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileExplorer_Prefix.pch; sourceTree = "<group>"; };
+		716DA9BD1920D958002E01BC /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		716DA9BF1920D970002E01BC /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		716DA9C11920D978002E01BC /* MEMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEMainWindowController.xib; sourceTree = "<group>"; };
+		716DA9C31920DC28002E01BC /* libMobileDeviceAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileDeviceAccess.a; path = "../../../../../Library/Developer/Xcode/DerivedData/MobileExplorer-dsqudaqounkvcnbaablahbwyukhz/Build/Products/Debug/libMobileDeviceAccess.a"; sourceTree = "<group>"; };
+		719ADC8613192E0700696ECF /* MEMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMainWindowController.h; sourceTree = "<group>"; };
+		719ADC8713192E0700696ECF /* MEMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMainWindowController.m; sourceTree = "<group>"; };
+		719ADE05131948FB00696ECF /* METreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METreeItem.h; sourceTree = "<group>"; };
+		719ADE06131948FB00696ECF /* METreeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METreeItem.m; sourceTree = "<group>"; };
+		719ADE1113194BBF00696ECF /* METreeItemDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METreeItemDevice.h; sourceTree = "<group>"; };
+		719ADE1213194BBF00696ECF /* METreeItemDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METreeItemDevice.m; sourceTree = "<group>"; };
+		719ADE1413194CBE00696ECF /* METreeItemSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METreeItemSection.h; sourceTree = "<group>"; };
+		719ADE1513194CBE00696ECF /* METreeItemSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METreeItemSection.m; sourceTree = "<group>"; };
+		719ADF3613196ABF00696ECF /* MEOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOutlineView.h; sourceTree = "<group>"; };
+		719ADF3713196ABF00696ECF /* MEOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOutlineView.m; sourceTree = "<group>"; };
+		71BE89B4131C53FC00BE91C7 /* MEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
+		71BE89B5131C53FC00BE91C7 /* MEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MobileExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716DA9C41920DC28002E01BC /* libMobileDeviceAccess.a in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				7148687916D5756F00ECB4D9 /* MobileDevice in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				719ADF3513196AAC00696ECF /* Views */,
+				719ADDBC1319439000696ECF /* MainController */,
+				719ADDBB1319438900696ECF /* Models */,
+				71BE89B4131C53FC00BE91C7 /* MEAppDelegate.h */,
+				71BE89B5131C53FC00BE91C7 /* MEAppDelegate.m */,
+			);
+			name = Classes;
+			path = MobileExplorer/Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				7148687816D5756F00ECB4D9 /* MobileDevice */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MobileExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* andTunes */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = andTunes;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				716DA9BC1920D74C002E01BC /* MobileExplorer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = MobileExplorer;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				716DA9BD1920D958002E01BC /* InfoPlist.strings */,
+				716DA9BF1920D970002E01BC /* MainMenu.nib */,
+			);
+			name = Resources;
+			path = MobileExplorer;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716DA9C31920DC28002E01BC /* libMobileDeviceAccess.a */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		719ADDBB1319438900696ECF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				719ADE05131948FB00696ECF /* METreeItem.h */,
+				719ADE06131948FB00696ECF /* METreeItem.m */,
+				719ADE1113194BBF00696ECF /* METreeItemDevice.h */,
+				719ADE1213194BBF00696ECF /* METreeItemDevice.m */,
+				719ADE1413194CBE00696ECF /* METreeItemSection.h */,
+				719ADE1513194CBE00696ECF /* METreeItemSection.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		719ADDBC1319439000696ECF /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				719ADC8613192E0700696ECF /* MEMainWindowController.h */,
+				719ADC8713192E0700696ECF /* MEMainWindowController.m */,
+				716DA9C11920D978002E01BC /* MEMainWindowController.xib */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		719ADF3513196AAC00696ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				719ADF3613196ABF00696ECF /* MEOutlineView.h */,
+				719ADF3713196ABF00696ECF /* MEOutlineView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MobileExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MobileExplorer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileExplorer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = andTunes;
+			productReference = 8D1107320486CEB800E47090 /* MobileExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MobileExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* andTunes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MobileExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716DA9C01920D970002E01BC /* MainMenu.nib in Resources */,
+				716DA9C21920D978002E01BC /* MEMainWindowController.xib in Resources */,
+				716DA9BE1920D958002E01BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				719ADC8813192E0700696ECF /* MEMainWindowController.m in Sources */,
+				719ADE07131948FB00696ECF /* METreeItem.m in Sources */,
+				719ADE1313194BBF00696ECF /* METreeItemDevice.m in Sources */,
+				719ADE1613194CBE00696ECF /* METreeItemSection.m in Sources */,
+				719ADF3813196ABF00696ECF /* MEOutlineView.m in Sources */,
+				71BE89B6131C53FC00BE91C7 /* MEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MobileExplorer/MobileExplorer_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/MobileExplorer/Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/PrivateFrameworks/MobileDevice.framework\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = MobileExplorer;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/MobileDeviceAccess/**";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MobileExplorer/MobileExplorer_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/MobileExplorer/Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/PrivateFrameworks/MobileDevice.framework\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = MobileExplorer;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/MobileDeviceAccess/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MobileExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MobileExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
