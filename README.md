@@ -4,12 +4,12 @@ Mobile Explorer is a small OS X app that display applications installed on an iO
 
 I made it for test purposes back in 2011 and push it to GitHub in 2014. Source code has been updated to match current standards (i.e removed `@synthesize` and `@dynamic`, removed category name for private `@interface`, and so on).
 
-![](https://github.com/amarcadet/MobileExplorer/Screenshots/screenshot.png)
+![](https://raw.githubusercontent.com/amarcadet/MobileExplorer/master/Screenshots/screenshot.png)
 
 
 ## Attributions
 
-Mobile Explorer rely on [MobileDeviceAccess](https://bitbucket.org/tristero/mobiledeviceaccess) from [Jeff Laing](https://bitbucket.org/tristero). See [license](https://github.com/amarcadet/MobileExplorer/MobileDeviceAccess/License.txt).
+Mobile Explorer rely on [MobileDeviceAccess](https://bitbucket.org/tristero/mobiledeviceaccess) from [Jeff Laing](https://bitbucket.org/tristero). See [license](https://github.com/amarcadet/MobileExplorer/blob/master/MobileDeviceAccess/License.txt).
 
 
 ## License
